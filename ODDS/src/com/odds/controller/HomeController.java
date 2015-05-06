@@ -10,6 +10,6 @@ public class HomeController {
 
     @RequestMapping(method = {RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE, RequestMethod.PUT})
     public String redirect(){
-        return "redirect:/index";
+        return "redirect:/protected/home";
     }
 }
